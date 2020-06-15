@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { fetchAllStudentsThunk } from "../../thunks";
+import { AddStudentFormView } from "../views";
+
 
 class AddStudentToCampusContainer extends Component {
   constructor(props) {
